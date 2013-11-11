@@ -1,0 +1,4 @@
+installitron
+============
+
+Javascript Installer Library
