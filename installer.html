@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Basic Installation</title>
+    <style>
+      #installerContent {
+      	border: 1px solid blue;
+      }
+    </style>
+    <script src="installer.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  </head>
+  <body>
+  	<h1>Installer</h1>
+    <div id="installerContent">
+    </div>
+  </body>
+  <script>
+    document.body.onload = function() {
+    	var installerStepHTML = "<div id=\"installerContent1\" style=\"width: 400px; background-color: green;\">Hello.</div>";
+
+    	var installerStep = new InstallerStep("whereever", installerStepHTML, 'installerContent', undefined, undefined, {showButtonsAlways: true});
+    	var installer = new Installer();
+    	installer.addStep(installerStep);
+    	installer.nextStep();
+    }
+  </script>
+</html>
