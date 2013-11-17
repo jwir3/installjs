@@ -1,4 +1,4 @@
-installitron
+installjs
 ============
 
-Javascript Installer Library
+A (mostly) Javascript installation library to install web applications.
