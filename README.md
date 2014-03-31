@@ -15,7 +15,7 @@ Wouldn't it be nice if you could download a package (ideally from source), place
 that package, in it's unzipped form on your web server, and perform the rest of
 the installation from a remote client?
 
-That's the primary goal of this project.
+This is the primary goal of installjs.
 
 Design
 ================================
